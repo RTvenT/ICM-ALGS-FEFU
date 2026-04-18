@@ -16,6 +16,8 @@ class Solution:
             if close_count < open_count:
                 stack.append((current + ")", open_count, close_count + 1))
                 
+            print(stack)
+                
 
         return result
     
