@@ -144,7 +144,7 @@ def numIslands(self, grid):
     for r in range(rows):
         for c in range(cols):
             if grid[r][c] == '1':
-                count += 1
+                count += 1  
                 dfs(r, c)
     return count
 ```
